@@ -1,13 +1,13 @@
 function shout(string) {
-  return string.toUpperCase()
+  return string.toUpperCase();
 }
 
 function whisper(string) {
-  return string.toLowerCase()
+  return string.toLowerCase();
 }
 
-console.log(shout('string'));
-console.log(whisper('string'));
+console.log(shout(string));
+console.log(whisper(string));
 
 function sayHiToGrandma(string) {
 if (string === "I love you, Grandma.") {
