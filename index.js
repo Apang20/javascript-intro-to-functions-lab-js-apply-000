@@ -5,9 +5,13 @@ function shout(string) {
 function whisper(string) {
   return string.toLowerCase();
 }
+function logShout(string) {
+console.log(shout('string'));
+}
 
-console.log(logShout('string'));
-console.log(logWhisperhisper('string'));
+function logWhisper(string){
+console.log(whisper('string'));
+}
 
 function sayHiToGrandma(string) {
 if (string === "I love you, Grandma.") {
